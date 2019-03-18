@@ -12,6 +12,9 @@
 #include <iostream>
 #include "punkt.hpp"
 
+using std::cout;
+using std::endl;
+
 struct node{
     Punkt pnt;
     node *next;
@@ -26,10 +29,18 @@ public:
         head=NULL;
         tail=NULL;
     }
+    list(node* phead);
     ~list();
     void addNode(Punkt p);
     void removeNode(int number);
     void displayList();
+    node * gethead() const ; // return the adress of head
+    node * gettail() const ;
+    //operators
+    list operator+(const list & l) const;
+    list & operator+=(list l);
+    //friends
+    friend std::ostream & operator <<( std::ostream & os, const Punkt & p );
     
 };
 

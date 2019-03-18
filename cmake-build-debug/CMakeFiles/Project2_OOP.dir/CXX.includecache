@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/bindas/Documents/C++/Project2_OOP/list.hpp
+iostream
+-
+punkt.hpp
+/home/bindas/Documents/C++/Project2_OOP/punkt.hpp
+
+/home/bindas/Documents/C++/Project2_OOP/main.cpp
+punkt.hpp
+/home/bindas/Documents/C++/Project2_OOP/punkt.hpp
+list.hpp
+/home/bindas/Documents/C++/Project2_OOP/list.hpp
+
+/home/bindas/Documents/C++/Project2_OOP/punkt.hpp
+iostream
+-
+

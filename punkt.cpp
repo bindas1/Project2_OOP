@@ -7,22 +7,23 @@
 //
 
 #include "punkt.hpp"
-#include <iostream>
 
-Punkt::Punkt() : x(0), y(0), z(0) {
+Punkt::Punkt() {
+    x = 0;
+    y = 0;
+    z = 0;
 }
 
 Punkt::Punkt(double xc, double yc, double zc) : x(xc), y(yc), z(zc) {
 }
 
-Punkt::~Punkt() { 
-    std::cout << "Bye!" << this->x << std::endl;
+Punkt::~Punkt() {
 }
 
 
-Punkt Punkt::operator+(Punkt p) { 
-    //return {this->x + p.x, this->y + p.y, this->z + p.z};
-    return Punkt(this->x + p.x, this->y + p.y, this->z + p.z);
+Punkt Punkt::operator+(const Punkt & p) const {
+    return {this->x + p.x, this->y + p.y, this->z + p.z};
+    // return Punkt(this->x + p.x, this->y + p.y, this->z + p.z); it's the same :)
 }
 
 Punkt& Punkt::operator+=(Punkt p) {
@@ -32,7 +33,7 @@ Punkt& Punkt::operator+=(Punkt p) {
     return *this;
 }
 
-Punkt Punkt::operator-(Punkt p) { 
+Punkt Punkt::operator-(const Punkt & p) const {
     return {this->x - p.x, this->y - p.y, this->z - p.z};
 }
 
@@ -43,31 +44,26 @@ Punkt& Punkt::operator-=(Punkt p) {
     return *this;;
 }
 
-bool Punkt::operator==(const Punkt &p) {
-    if (this->x == p.x && this->y==p.y && this->z==p.z)
-        return true;
-    else
-        return false;
+bool Punkt::operator==(const Punkt &p) const {
+    return (this->x == p.x && this->y==p.y && this->z==p.z);
 }
 
-bool Punkt::operator!=(const Punkt &p) { 
+bool Punkt::operator!=(const Punkt &p) const {
     return !(*this == p);
 }
 
 //methods
-double Punkt::get_xc() {
+double Punkt::get_xc() const{
     return this->x;
 }
 
-double Punkt::get_yc() { 
+double Punkt::get_yc() const{
     return this->y;
 }
 
-double Punkt::get_zc() { 
+double Punkt::get_zc() const{
     return this->z;
 }
-
-
 
 //friends
 std::ostream & operator <<( std::ostream & os, const Punkt & p )
