@@ -68,5 +68,6 @@ double Punkt::get_zc() const{
 //friends
 std::ostream & operator <<( std::ostream & os, const Punkt & p )
 {
-    return os << '<' << p.x << ',' << p.y << ',' << p.z << '>';
+    os << "<" << p.x << "," << p.y << "," << p.z << ">";
+    return os;
 }

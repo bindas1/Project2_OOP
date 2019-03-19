@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /opt/clion-2018.2.5/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /opt/clion-2018.2.5/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/bindas/Documents/C++/Project2_OOP
+CMAKE_SOURCE_DIR = /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/bindas/Documents/C++/Project2_OOP/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Project2_OOP.dir/depend.make
@@ -59,42 +59,42 @@ include CMakeFiles/Project2_OOP.dir/flags.make
 
 CMakeFiles/Project2_OOP.dir/list.cpp.o: CMakeFiles/Project2_OOP.dir/flags.make
 CMakeFiles/Project2_OOP.dir/list.cpp.o: ../list.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project2_OOP.dir/list.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_OOP.dir/list.cpp.o -c /home/bindas/Documents/C++/Project2_OOP/list.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Project2_OOP.dir/list.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_OOP.dir/list.cpp.o -c /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.cpp
 
 CMakeFiles/Project2_OOP.dir/list.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_OOP.dir/list.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bindas/Documents/C++/Project2_OOP/list.cpp > CMakeFiles/Project2_OOP.dir/list.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.cpp > CMakeFiles/Project2_OOP.dir/list.cpp.i
 
 CMakeFiles/Project2_OOP.dir/list.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_OOP.dir/list.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bindas/Documents/C++/Project2_OOP/list.cpp -o CMakeFiles/Project2_OOP.dir/list.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.cpp -o CMakeFiles/Project2_OOP.dir/list.cpp.s
 
 CMakeFiles/Project2_OOP.dir/main.cpp.o: CMakeFiles/Project2_OOP.dir/flags.make
 CMakeFiles/Project2_OOP.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project2_OOP.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_OOP.dir/main.cpp.o -c /home/bindas/Documents/C++/Project2_OOP/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Project2_OOP.dir/main.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_OOP.dir/main.cpp.o -c /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/main.cpp
 
 CMakeFiles/Project2_OOP.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_OOP.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bindas/Documents/C++/Project2_OOP/main.cpp > CMakeFiles/Project2_OOP.dir/main.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/main.cpp > CMakeFiles/Project2_OOP.dir/main.cpp.i
 
 CMakeFiles/Project2_OOP.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_OOP.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bindas/Documents/C++/Project2_OOP/main.cpp -o CMakeFiles/Project2_OOP.dir/main.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/main.cpp -o CMakeFiles/Project2_OOP.dir/main.cpp.s
 
 CMakeFiles/Project2_OOP.dir/punkt.cpp.o: CMakeFiles/Project2_OOP.dir/flags.make
 CMakeFiles/Project2_OOP.dir/punkt.cpp.o: ../punkt.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project2_OOP.dir/punkt.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_OOP.dir/punkt.cpp.o -c /home/bindas/Documents/C++/Project2_OOP/punkt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Project2_OOP.dir/punkt.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Project2_OOP.dir/punkt.cpp.o -c /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.cpp
 
 CMakeFiles/Project2_OOP.dir/punkt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Project2_OOP.dir/punkt.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/bindas/Documents/C++/Project2_OOP/punkt.cpp > CMakeFiles/Project2_OOP.dir/punkt.cpp.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.cpp > CMakeFiles/Project2_OOP.dir/punkt.cpp.i
 
 CMakeFiles/Project2_OOP.dir/punkt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Project2_OOP.dir/punkt.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/bindas/Documents/C++/Project2_OOP/punkt.cpp -o CMakeFiles/Project2_OOP.dir/punkt.cpp.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.cpp -o CMakeFiles/Project2_OOP.dir/punkt.cpp.s
 
 # Object files for target Project2_OOP
 Project2_OOP_OBJECTS = \
@@ -110,7 +110,7 @@ Project2_OOP: CMakeFiles/Project2_OOP.dir/main.cpp.o
 Project2_OOP: CMakeFiles/Project2_OOP.dir/punkt.cpp.o
 Project2_OOP: CMakeFiles/Project2_OOP.dir/build.make
 Project2_OOP: CMakeFiles/Project2_OOP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Project2_OOP"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Project2_OOP"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Project2_OOP.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -123,6 +123,6 @@ CMakeFiles/Project2_OOP.dir/clean:
 .PHONY : CMakeFiles/Project2_OOP.dir/clean
 
 CMakeFiles/Project2_OOP.dir/depend:
-	cd /home/bindas/Documents/C++/Project2_OOP/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/bindas/Documents/C++/Project2_OOP /home/bindas/Documents/C++/Project2_OOP /home/bindas/Documents/C++/Project2_OOP/cmake-build-debug /home/bindas/Documents/C++/Project2_OOP/cmake-build-debug /home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles/Project2_OOP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles/Project2_OOP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Project2_OOP.dir/depend
 

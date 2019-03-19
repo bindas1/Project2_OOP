@@ -72,8 +72,8 @@ list::list(node* phead){
 
 list::~list(){
     node *temp;
-    while(head!=NULL){
-        temp=head;
+    while(head!=nullptr){
+        temp = head;
         head=head->next;
         delete temp;
     }
@@ -81,8 +81,8 @@ list::~list(){
 
 //operators
 
-list list::operator+(const list & l) const{
-    list sumList = list();
+list list::operator+(const list & l) {
+    list sumList;
     node * temp1;
     temp1 = this->gethead();
     while(temp1 != NULL){
@@ -97,23 +97,34 @@ list list::operator+(const list & l) const{
     return sumList;
 }
 
-list & list::operator+=(list l) {
-    this->tail->next = l.gethead();
+list & list::operator+=(list &l) {
+    node *temp;
+    temp = l.gethead();
+    while(temp != NULL){
+        this->addNode(temp->pnt);
+        temp=temp->next;
+    }
+    return *this;
+}
+
+list list::operator=(list &l){
+    this->head = l.head;
+    this->tail = l.tail;
     return *this;
 }
 
 //friends
-/*
-std::ostream & operator <<( std::ostream & os, const Punkt & p )
+
+std::ostream & operator <<( std::ostream & os, const list &l )
 {
     node *temp;
-    temp = head;
+    temp = l.head;
     while(temp!=NULL){
-        return os << temp->pnt << endl;
+        os << temp->pnt << endl;
         temp=temp->next;
     }
-}*/
-// commited ???
+    return os;
+}
 
 void check_alloc(node *pointer){
     if(pointer==NULL)

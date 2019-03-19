@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/bindas/Documents/C++/Project2_OOP/list.cpp" "/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles/Project2_OOP.dir/list.cpp.o"
-  "/home/bindas/Documents/C++/Project2_OOP/main.cpp" "/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles/Project2_OOP.dir/main.cpp.o"
-  "/home/bindas/Documents/C++/Project2_OOP/punkt.cpp" "/home/bindas/Documents/C++/Project2_OOP/cmake-build-debug/CMakeFiles/Project2_OOP.dir/punkt.cpp.o"
+  "/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.cpp" "/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles/Project2_OOP.dir/list.cpp.o"
+  "/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/main.cpp" "/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles/Project2_OOP.dir/main.cpp.o"
+  "/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.cpp" "/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/cmake-build-debug/CMakeFiles/Project2_OOP.dir/punkt.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

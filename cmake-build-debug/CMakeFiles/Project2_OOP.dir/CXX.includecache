@@ -6,19 +6,27 @@
 
 #IncludeRegexTransform: 
 
-/home/bindas/Documents/C++/Project2_OOP/list.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.cpp
+list.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.hpp
+
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.hpp
 iostream
 -
 punkt.hpp
-/home/bindas/Documents/C++/Project2_OOP/punkt.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
 
-/home/bindas/Documents/C++/Project2_OOP/main.cpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/main.cpp
 punkt.hpp
-/home/bindas/Documents/C++/Project2_OOP/punkt.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
 list.hpp
-/home/bindas/Documents/C++/Project2_OOP/list.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.hpp
 
-/home/bindas/Documents/C++/Project2_OOP/punkt.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.cpp
+punkt.hpp
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
+
+/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
 iostream
 -
 

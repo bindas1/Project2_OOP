@@ -37,10 +37,11 @@ public:
     node * gethead() const ; // return the adress of head
     node * gettail() const ;
     //operators
-    list operator+(const list & l) const;
-    list & operator+=(list l);
+    list operator+(const list & l) ;
+    list & operator+=(list &l);
+    list operator=(list &l);
     //friends
-    friend std::ostream & operator <<( std::ostream & os, const Punkt & p );
+    friend std::ostream & operator <<( std::ostream & os, const list & l );
     
 };
 
