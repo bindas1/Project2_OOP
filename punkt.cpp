@@ -8,6 +8,7 @@
 
 #include "punkt.hpp"
 
+
 Punkt::Punkt() {
     x = 0;
     y = 0;

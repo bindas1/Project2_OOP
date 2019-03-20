@@ -36,7 +36,7 @@ void list::removeNode(int number){
     node *temp = head;
     node *tobedeleted;
     int num = 1;
-    if(number == 0){
+    if(number == 0 && head!=NULL){
         head = head->next;
         delete temp;
     }
@@ -45,14 +45,13 @@ void list::removeNode(int number){
             num += 1;
             temp = temp->next;
         }
-        if (num == number && temp!=NULL) {
+        if (num == number && temp!=NULL && temp->next!=NULL) {
             tobedeleted = temp->next;
             temp->next = temp->next->next;
             delete tobedeleted;
         }
         else
             cout << "Number bigger than the size of list! Try with smaller number" << endl;
-
     }
 }
 
@@ -107,12 +106,35 @@ list & list::operator+=(list &l) {
     return *this;
 }
 
-list list::operator=(list &l){
+Punkt list::operator[](int number){
+    node *temp = head;
+    int num = 1;
+    if(number == 0 && head!=NULL){
+        return head->pnt;
+    }
+    else {
+        while (temp != NULL && num != number) { /* when num equals number temp->next is our node to delete */
+            num += 1;
+            temp = temp->next;
+        }
+        if(head==NULL){
+            cout << "List is empty" << endl;
+            return Punkt();
+        }
+        else if (num == number && temp!=NULL && temp->next!=NULL)
+            return temp->next->pnt;
+        else
+            cout << "Number bigger than the number of elements in the list! Try with a smaller number. The last element of the list is element number " << num-2 << ":" << endl;
+        return tail->pnt;
+    }
+}
+
+/*list list::operator=(list &l){
     this->head = l.head;
     this->tail = l.tail;
     return *this;
 }
-
+*/
 //friends
 
 std::ostream & operator <<( std::ostream & os, const list &l )

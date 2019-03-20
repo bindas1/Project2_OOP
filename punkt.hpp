@@ -10,6 +10,7 @@
 #define punkt_hpp
 
 #include <iostream>
+using std::cin;
 
 class Punkt{
 private:

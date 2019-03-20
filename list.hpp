@@ -39,7 +39,8 @@ public:
     //operators
     list operator+(const list & l) ;
     list & operator+=(list &l);
-    list operator=(list &l);
+    Punkt operator[](int number);
+    //list operator=(list &l);
     //friends
     friend std::ostream & operator <<( std::ostream & os, const list & l );
     

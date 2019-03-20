@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.cpp
-list.hpp
-/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.hpp
-
 /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.hpp
 iostream
 -
@@ -21,10 +17,6 @@ punkt.hpp
 /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
 list.hpp
 /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/list.hpp
-
-/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.cpp
-punkt.hpp
-/Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
 
 /Users/bindas/Documents2/C++/Projekt_2_Bartlomiej_Binda/Projekt_2_Bartlomiej_Binda/punkt.hpp
 iostream
