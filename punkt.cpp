@@ -27,7 +27,7 @@ Punkt Punkt::operator+(const Punkt & p) const {
     // return Punkt(this->x + p.x, this->y + p.y, this->z + p.z); it's the same :)
 }
 
-Punkt& Punkt::operator+=(Punkt p) {
+Punkt & Punkt::operator+=(Punkt p) {
     this->x += p.x;
     this->y += p.y;
     this->z += p.z;

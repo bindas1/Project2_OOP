@@ -33,18 +33,21 @@ public:
     ~list();
     void addNode(Punkt p);
     void removeNode(int number);
-    void displayList();
+    //void displayList();
     node * gethead() const ; // return the adress of head
     node * gettail() const ;
     //operators
     list operator+(const list & l) ;
     list & operator+=(list &l);
-    Punkt operator[](int number);
-    //list operator=(list &l);
+    Punkt operator[](int number) const;
     //friends
     friend std::ostream & operator <<( std::ostream & os, const list & l );
     
 };
+
+void setList(list &l2, int num);
+void checkPoint(Punkt &a, Punkt &b);
+void checkList(Punkt a, Punkt b);
 
 //helper function
 void check_alloc(node *pointer);
